@@ -1,0 +1,13 @@
+﻿<Window x:Class="Save_Contact"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Save Contact" Height="179" Width="254" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock x:Name="txtIP" HorizontalAlignment="Left" Margin="31,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="IP Address" FontSize="14"/>
+        <TextBox x:Name="txtContactName" HorizontalAlignment="Left" Height="23" Margin="31,75,0,0" TextWrapping="Wrap" Text="Contact Name" VerticalAlignment="Top" Width="180" FontSize="14"/>
+        <Button x:Name="btnSaveContact" Content="Save" HorizontalAlignment="Left" Margin="136,103,0,0" VerticalAlignment="Top" Width="75" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,54,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,10,0,0" TextWrapping="Wrap" Text="IP Address:" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

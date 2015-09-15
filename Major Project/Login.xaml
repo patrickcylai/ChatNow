@@ -1,0 +1,14 @@
+﻿<Window x:Class="Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Login" Height="252" Width="344" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="logo-v2.ico">
+    <Grid>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="54,134,0,0" VerticalAlignment="Top" Width="218" Height="23" TabIndex="1"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="54,85,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="218" FontStyle="Italic" TabIndex="0" />
+        <TextBlock HorizontalAlignment="Left" Margin="42,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="27" FontFamily="Segoe UI Light"><Run Language="en-au" Text="Welcome to chatNow!"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="54,64.51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF818181"><Run Language="en-au" Text="Username"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="54,113.47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF818181"><Run Language="en-au" Text="Password"/></TextBlock>
+        <Button x:Name="btnLogin" Content="Sign In" HorizontalAlignment="Left" Margin="236,177.68,0,0" VerticalAlignment="Top" Width="75" FontSize="18" Background="#FF67B7D8" Foreground="White" FontFamily="Segoe UI Light" IsDefault="True"/>
+        <Button x:Name="lblCreateNewAccount" Content="Create New Account" HorizontalAlignment="Left" Margin="10,182.996,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderThickness="0" Foreground="#FF818181" />
+    </Grid>
+</Window>
